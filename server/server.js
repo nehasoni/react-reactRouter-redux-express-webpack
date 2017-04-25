@@ -21,7 +21,7 @@ import configureStore from '../common/store/configureStore'
 
 
 const app = new Express()
-const port = 3002
+const port = 8080
 
 // Use this middleware to set up hot module reloading via webpack.
 const compiler = webpack(webpackConfig)
