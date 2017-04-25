@@ -18,7 +18,7 @@ import { renderToString } from 'react-dom/server'
 import { Provider } from 'react-redux'
 
 import { match, RouterContext } from 'react-router'
-import routes from '../client/routes'
+import routes from '../app/routes'
 
 
 import configureStore from '../common/store/configureStore'

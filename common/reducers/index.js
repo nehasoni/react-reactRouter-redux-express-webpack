@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux'
-import repos from '../../client/modules/Repos/Reducer'
-import home from '../../client/modules/Home/Reducer'
+import repos from '../../app/modules/Repos/Reducer'
+import home from '../../app/modules/Home/Reducer'
 
 const rootReducer = combineReducers({
   repos,
