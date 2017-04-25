@@ -25,7 +25,7 @@ import configureStore from '../common/store/configureStore'
 
 
 const app = new koa()
-const port = 8080
+const port = process.env.PORT || 3002
 
 // Use this middleware to set up hot module reloading via webpack.
 
