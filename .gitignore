@@ -3,3 +3,4 @@ node_module/
 dist/
 server.bundle.js
 npm-debug.log
+.idea/
